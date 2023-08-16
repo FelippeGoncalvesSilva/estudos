@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body> 
+     <div class="box">
+        <form action="">
+            <fieldset>
+                    <legend><b>Fomulário de Cliente</b></legend>
+                    <br/>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <br/><br/>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <br/><br/>
+                    <div class="inputBox">
+                        <input type="tel" name="tel" id="tel" class="inputUser" required>
+                        <label for="tel" class="labelInput">Telefone</label>
+                    </div>
+                    <p>Sexo:</p>
+                    <input type="radio" id="Masculino" name="genero" value="Masculino" required>
+                    <label for="Masculino">Masculino</label>
+                    <br/>
+                    <input type="radio" id="Feminino" name="genero" value="Feminino" required>
+                    <label for="Feminino">Feminino</label>
+                    <br/>
+                    <input type="radio" id="Outros" name="genero" value="Outros" required>
+                    <label for="Outros">Outros</label>
+                    <br/><br/>
+                    <div class="inputBox">
+                        <label for="data_nascimento"><b>Ano de Nascimento:</b></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                    </div>
+                    <br/>
+                    <div class="inputBox">
+                        <input type="text" name="Cidade" id="Cidade" class="inputUser" required>
+                        <label for="Cidade" class="labelInput">Cidade</label>
+                    </div>
+                    <br/><br/>
+                    <div class="inputBox">
+                        <input type="text" name="Estado" id="Estado" class="inputUser" required>
+                        <label for="Estado" class="labelInput">Estado</label>
+                    </div>
+                    <br/><br/>
+                    <div class="inputBox">
+                        <input type="text" name="Endereço" id="Endereço" class="inputUser" required>
+                        <label for="Endereço" class="labelInput">Endereço</label>
+                    </div>
+                    <br/><br/>
+                    <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+     </div>
+</body>
+
+</html>
